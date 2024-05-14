@@ -1,0 +1,276 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 0.9em; /* Smaller font size */
+}
+
+.profile-pic {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-section h1 {
+    font-size: 2.25em;
+}
+
+.profile-section .text-muted {
+    font-size: 1.125em;
+}
+
+.icon {
+    font-size: 36px;
+    margin: 0 10px;
+}
+
+.bio-section {
+    margin-top: 20px;
+}
+
+.cv-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+.cv-link:hover {
+    text-decoration: underline;
+}
+
+.cv-link i {
+    margin-right: 8px;
+}
+
+.interests,
+.accomplishments,
+.education {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li,
+.accomplishments li,
+.education li {
+    margin-bottom: 10px;
+}
+
+
+.education .institution, .education .gpa {
+    font-size: 0.875em; /* Smaller font size */
+    color: grey; /* Grey font color */
+    margin: 0; /* Remove margin */
+    padding-left: 30px; /* Indent to align with major name */
+}
+
+.container {
+    max-width: 100%;
+}
+
+.row.justify-content-center {
+    justify-content: start !important;
+}
+
+.first-section {
+    padding-top: 20px;
+}
+
+.first-section .bio-header {
+    font-size: 2em;
+}
+
+.first-section .bio-text {
+    font-size: 1.2em;
+}
+
+.experience-section {
+    margin-top: 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.timeline {
+    position: relative;
+    padding: 10px 0;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 19px; /* Center the timeline line */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #007bff;
+}
+
+.timeline-first:before {
+    top: 50%;
+}
+
+.timeline-last:before {
+    bottom: 50%;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-icon {
+    position: absolute;
+    left: 10px; /* Center the timeline icon */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-content {
+    margin-left: 70px; /* Adjust to match the new icon position */
+    width: 100%;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+}
+
+.company-logo {
+    height: 50px;
+    width: auto; /* Set desired width */
+    margin-right: 10px;
+}
+
+.experience-details {
+    display: flex;
+    flex-direction: column;
+}
+.skills-icon img,
+.skills-icon svg,
+.skills-icon i {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.skills-name {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: grey;
+}
+
+.skills-content {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.skill-group-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.home-section .container {
+    max-width: 1200px;
+}
+
+.home-section .row {
+    margin-top: 30px;
+}
+
+.project-section {
+    margin-top: 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.project-toolbar {
+    margin-bottom: 20px;
+}
+
+.project-toolbar .btn-group .btn {
+    margin: 5px;
+}
+
+.section-subheading {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.article-style {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.btn-links {
+    margin: 5px 0;
+}
+
+.btn-page-header {
+    margin: 5px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.projects-container {
+    margin-top: 30px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fa-li {
+    margin-right: 10px;
+}
+
+.contact-link {
+    font-size: 1.25em; /* Adjust the font size as needed */
+    color: black; /* Adjust the color as needed */
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
