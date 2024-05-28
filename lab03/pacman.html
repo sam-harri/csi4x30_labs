@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D PacMan</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .game-cell {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            padding: 0;
+        }
+        .game-board {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>2D PacMan</h1>
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <button id="createGameBtn" class="btn btn-primary">Create Game</button>
+                <button id="moveLeftBtn" class="btn btn-secondary">Move Left</button>
+                <button id="moveRightBtn" class="btn btn-secondary">Move Right</button>
+                <button id="moveUpBtn" class="btn btn-secondary">Move Up</button>
+                <button id="moveDownBtn" class="btn btn-secondary">Move Down</button>
+            </div>
+        </div>
+        <div class="game-board" id="gameBoard">
+            <!-- Game board will be dynamically generated here -->
+        </div>
+    </div>
+    <script src="pacman.js"></script>
+</body>
+</html>
